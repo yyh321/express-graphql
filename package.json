@@ -1,0 +1,25 @@
+{
+  "name": "express-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon index.js --exec babel-node",
+    "json-server": "./node_modules/.bin/json-server --watch db.json --port 3300"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-stage-0": "^7.8.3",
+    "json-server": "^0.16.1",
+    "nodemon": "^2.0.4"
+  }
+}
